@@ -1,19 +1,50 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Games in Python
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build the classic Hangman word-guessing game using Python strings, loops, conditionals, and user input to practice game logic and string manipulation.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Game Initialization and Word Selection
 
-## ✅ Must Have's
+#### Description
+Set up the Hangman game by randomly selecting a word from a predefined list and initializing the game state.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Define a list of words to choose from
+- Randomly select one word at the start of the game
+- Initialize game variables (attempts remaining, guessed letters, word display)
+- Display the hidden word in the format: `_ _ _ _ _`
+
+### 🛠️ Letter Guessing and Progress Tracking
+
+#### Description
+Implement the core guessing mechanism where players guess letters and see their progress updated.
+
+#### Requirements
+Completed program should:
+
+- Accept letter guesses from the user
+- Check if the guessed letter is in the word
+- Update the display to reveal correctly guessed letters
+- Track all previously guessed letters
+- Decrement the attempts counter for incorrect guesses
+- Prevent duplicate guesses
+
+### 🛠️ Game Flow and Win/Lose Conditions
+
+#### Description
+Complete the game loop with win and lose conditions, displaying appropriate messages.
+
+#### Requirements
+Completed program should:
+
+- Display the current game state after each guess
+- Determine when the player has guessed the word (win condition)
+- Determine when the player has run out of attempts (lose condition)
+- Display the final word and appropriate win/lose messages
+- Offer to play again or exit the game
