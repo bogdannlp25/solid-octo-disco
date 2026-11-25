@@ -77,6 +77,47 @@
           "type": "txt"
         }
       ]
+    },
+    {
+      "id": "database-manager",
+      "title": "Student Portfolio Database Manager",
+      "description": "Build a database-backed application using SQLAlchemy, SQLite, and Python. Learn database design, ORM models, CRUD operations, and data persistence.",
+      "path": "assignments/database_assignment",
+      "dueDate": "2026-12-21",
+      "difficulty": "Intermediate",
+      "skills": ["Databases", "SQLAlchemy ORM", "SQL", "Data Persistence", "Python"],
+      "attachments": [
+        {
+          "name": "Full Assignment",
+          "file": "ASSIGNMENT.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Getting Started Guide",
+          "file": "GETTING_STARTED.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Grading Rubric",
+          "file": "RUBRIC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "FAQs",
+          "file": "FAQS.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Starter Template",
+          "file": "starter_template",
+          "type": "folder"
+        },
+        {
+          "name": "Test Suite",
+          "file": "tests/test_operations.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
